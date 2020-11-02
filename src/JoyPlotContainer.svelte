@@ -1,9 +1,9 @@
 <script>
   import Select from "svelte-select";
-  import JoyPlot from "./Joyplot.svelte";
   import metros from "./data/metros.json";
   import hhinc from "./data/hhinc.json";
   import ipc from "./data/ipc.json";
+  import JoyPlot from "./Joyplot.svelte";
 
   const data = {
     hhinc: hhinc,
