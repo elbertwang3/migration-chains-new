@@ -1,13 +1,12 @@
 <script>
-  import { onMount, afterUpdate, beforeUpdate } from "svelte";
+  import { beforeUpdate } from "svelte";
   import { select } from "d3-selection";
   import { scaleLinear, scaleOrdinal } from "d3-scale";
-  import { schemeBrBG, interpolateBrBG } from "d3-scale-chromatic";
+  import { schemeBrBG } from "d3-scale-chromatic";
   import { max, extent } from "d3-array";
   import { axisBottom } from "d3-axis";
   import { format } from "d3-format";
   import { area, curveCardinal } from "d3-shape";
-  import { yesno } from "journalize";
   import Joy from "./Joy.svelte";
 
   export let width = 200;
