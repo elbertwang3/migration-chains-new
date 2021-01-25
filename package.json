@@ -6,7 +6,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public",
     "data:fetch": "node ./utils/get-data.js && node ./utils/api.js",
-    "deploy": "npm run build && surge public migration-chains.surge.sh"
+    "deploy": "npm run build && surge public migration-chains-2.surge.sh"
   },
   "devDependencies": {
     "@newswire/doc-to-archieml": "^1.0.0",
